@@ -1,6 +1,5 @@
 // DEPENDENCIES
 const { Sequelize, Database, Model, DataTypes } = require('sequelize')
-const sequelize = new Sequelize(process.env.PG_URI)
 
 //Model
 class Band extends Model{}
